@@ -3,4 +3,5 @@ do
     echo Test: $test
     $1 < $2/${test}.in| diff - $2/${test}.out
 done
+echo "Testing finished, press return to exit"
 read
